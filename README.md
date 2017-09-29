@@ -10,9 +10,15 @@
 
 ## ICON
 * [iconfinder](https://www.iconfinder.com/icons/211752/glasses_icon#size=256)
+* [MaterialICON](https://material.io/icons/)
 
 ## FRAMEWORK
 
 * [BOOTSTRAP4](https://v4-alpha.getbootstrap.com/) - BOOTSTRAP4 UI
 * [BOOTSTRAP4 CHEATSHEET](https://hackerthemes.com/bootstrap-cheatsheet/) - BOOTSTRAP4 CHEATSHEET
 
+## Plugin
+* [Textillate.js](http://textillate.js.org/) - 폰트 이펙트
+
+## FONT
+* [Google FONT](https://www.reliablepsd.com/ultimate-google-font-pairings/)

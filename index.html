@@ -8,61 +8,57 @@
     <title>TAKE XXX</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <style>
-      .ad-area{height: 60px; line-height: 60px; margin-bottom: 30px}
-      .eye-img{height: 44px; width: auto}
-      .search {
-          background-color: #fff;
-          height: 44px;
-          width: 80%;
-          margin:30px auto;
-          border-radius: 2px;
-          box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
-          transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
-          position: relative;
-      }
-      .search input {
-        width: 85%;
-        height: 42px;
-        border: none;
-      }
-      .sub-btn {
-        position: absolute;
-        text-align: center;
-        width: 15%;
-        height: 44px;
-        border: none;
-        background-color: #fff;
-        border-left: 1px solid #EEE;
-      }
-    </style>  
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/animate.css"> 
   </head>
-  <body>
-    <header class="container" style="padding : 30px 0 50px 0">
+  <body class="main">
+    <header class="container" style="">
+      <h1 class="tlt" data-in-effect="fadeInUp">TAKE</h1>
       <!-- 로고 -->
-      <h1>TAKE</h1>
+      <!--
+      <h1><span class="one">T</span><span class="two">A</span><span class="three">K</span><span class="four">E</span></h1>
+       -->
     </header>
-    <section>
+    <main>
       <!-- 검색영역 -->
-      <div class="container" style="padding : 30px 0 50px 0">
+      <div class="container search-contain">
         <div class="search">
            <form action="">
             <div class="form-group">
               <label for="search-bar" class="sr-only">search</label>
               <!-- 검색 창 -->
               <input type="text" name="search-bar" id="search-bar">
-              <!-- 내용 지우기 -->
-              <button type="button" class="close" aria-label="reset">
-                <span aria-hidden="true">&times;</span>
-              </button>
               <!-- 검색 버튼 -->
-              <button type="submit" class="sub-btn"><img class="eye-img" src="img/eyecon.png" alt=""></button>
+              <button type="submit" class="search-btn">검색</button>
             </div>
           </div>
         </form>
       </div>
+
       <!-- 추천검색어 -->
-      <div class="container" style="text-align: center; padding : 30px 0 50px 0">
+      <div class="container list-contain">
+          <a href="sub.html" class="list-btn music">시차-우원재</a>
+          <a href="#" class="list-btn movie">American Made</a>
+          <a href="#" class="list-btn tv">이름없는 여자</a>
+          <a href="#" class="list-btn image">Monster calls</a>
+          <a href="#" class="list-btn music">가을아침-IU</a>
+          <a href="#" class="list-btn movie">Game of Thrones</a>
+          <a href="#" class="list-btn image">battle ground</a>
+          <a href="#" class="list-btn tv">Discord</a>
+          <a href="#" class="list-btn image">Monster calls</a>
+          <a href="#" class="list-btn music">DNA-방탄소년단</a>
+          <a href="#" class="list-btn movie">베이비 드라이버</a>
+          <a href="#" class="list-btn image">battle ground</a>
+          <a href="#" class="list-btn tv">Discord</a>
+          <a href="#" class="list-btn music">좋니-윤종신</a>
+          <a href="#" class="list-btn movie">Game of Thrones</a>
+          <a href="#" class="list-btn image">battle ground</a>
+          <a href="#" class="list-btn tv">Discord</a>
+          <a href="#" class="list-btn image">Monster calls</a>
+      </div>
+
+      <!--
+      <div class="container list-contain">
           <a href="#" class="badge badge-primary">Baby Driver</a>
           <a href="#" class="badge badge-secondary">American Made</a>
           <a href="#" class="badge badge-success">Hitmans Bodyguard</a>
@@ -72,18 +68,24 @@
           <a href="#" class="badge badge-light">battle ground</a>
           <a href="#" class="badge badge-dark">Discord</a>
       </div>
-    </section>
-    <footer class="container fixed-bottom">
-      <div class="bg-light text-center ad-area">
-        AD AREA
-      </div>
-      <address style="text-align: center">© TAKE XXX</address>
+      -->
+    </main>
+    <footer class="fixed-bottom">
+      <address>© TAKE XXX</address>
     </footer>
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="js/lettering.js"></script>
+   <script src="js/textillate.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+     <script>
+      $(function () {
+        $('.tlt').textillate();
+      })
+    </script>
   </body>
 </html>
