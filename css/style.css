@@ -156,6 +156,7 @@ address{
 .result-list .link a{
     display: inline-block;
     height: 22px;
+    width: 60px;
     position: relative;
     color: #616161;
 }
