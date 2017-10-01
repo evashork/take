@@ -107,7 +107,7 @@ address{
 .sub h1 a{color: #616161; }
 .sub header{background-color:#fff; padding: 30px 0 30px 0; border-bottom: 1px solid #dbdbdb;}
 .sub {background-color:#f5f5f5}
-.result-list {
+.result-list dl{
     background-color: #fff;
     padding:30px;
     margin:30px auto;
@@ -116,18 +116,19 @@ address{
     transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
     position: relative;
 }
-.result-list dl{
-  padding: 0;
-  list-style: none;
-  margin-bottom: 0;
-}
-.result-list a{
-  font-size: 20px;
+.result-list dt a{
+  font-size: 18px;
   font-weight: 400;
 }
 .result-list dd{
-  padding-top:10px;
-  font-size: 14px;
+  padding-top:0px;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.result-list .url{
+  padding: 3px 0 5px 0;
+  color: #898989;
 }
 
 .result-list dt{
@@ -144,6 +145,27 @@ address{
   left: 0;
   border-radius: 3px;
 }
+
+
+.result-list .link{
+  text-align: right;
+  margin-bottom: 0;
+  padding-top: 5px;
+}
+
+.result-list .link a{
+    display: inline-block;
+    height: 22px;
+    position: relative;
+    color: #616161;
+}
+
+.result-list .link a img{
+  width: auto;
+  height: 100%;
+}
+
+
 
 .music::after{
   background: url(../img/ic_headset2x.png) center center no-repeat;
@@ -165,3 +187,4 @@ address{
   background-size: 20px auto;
   background-color: #43a047;
 }
+
