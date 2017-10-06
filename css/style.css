@@ -8,7 +8,6 @@ a:hover {text-decoration: none;}
 .main .search-contain{padding : 0 0 50px 0}
 .eye-img{height: 44px; width: auto}
 .search {
-    background-color: #fff;
     height: 44px;
     width: 80%;
     margin:30px auto;
@@ -104,7 +103,7 @@ address{
 }
 
 /* sub */
-.sub h1{font-size: 30px; color: #313A5A; font-weight: 800; text-align: center; position: relative; top:5px;}
+.sub h1{font-size: 30px; color: #313A5A; font-weight: 800;  text-align: center; position: relative; top:5px;}
 .sub h1 a{color: #313A5A; }
 .sub header{background-color:#fff; padding: 30px 0 30px 0; border-bottom: 1px solid #dbdbdb;}
 .sub {background-color:#F6F9FC}
@@ -188,3 +187,86 @@ address{
   background-color: #43a047;
 }
 
+.view{
+  background: url(../img/dark-triangles.png);
+}
+.view h1{padding: 30px 0 0 30px; font-size: 24px}
+.view h1 a{color: #fff; font-weight: 800}
+.view footer{
+  text-align: center; 
+  padding: 20px 0 0 0; 
+  background:none;
+}
+.view address{
+  font-size: 12px;
+  color: #fff;
+}
+.view .content{
+  color: #fff;
+  padding:15px;
+  font-size: 14px;
+}
+.cover{
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.cover iframe{
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+
+html{
+  height: 100%
+}
+
+.new{
+  width: 100%;
+  height: 100%;
+}
+
+.wrap{
+  position: relative;
+  height: 100%;
+  padding-top: 46px;
+  box-sizing: border-box;
+
+}
+
+.iframe_container{
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.iframe_container iframe{
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+.new header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 46px;
+  width: 100%;
+  vertical-align: middle;
+  background: url(../img/dark-triangles.png);
+}
+
+.new h1{
+  margin:0;
+  padding: 8px 0;
+  font-size: 30px;
+  text-indent: 20px;
+  line-height: 30px;
+}
+
+.new h1 a{
+  color: #fff; font-weight: 800
+}
