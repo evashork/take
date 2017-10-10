@@ -1,9 +1,10 @@
 a:hover {text-decoration: none;}
+body{border-top: 4px solid #C4663C}
 .container{width: 960px}
 /* 로고 */
-.main header{padding : 80px 0 0 0; text-align: center;}
+.main header{padding : 80px 0 0 0; text-align: center}
 .main header img{width: 180px; height: auto}
-.main h1{font-size: 40px; color: #313A5A; font-weight: 800}
+.main h1{font-size: 48px; color: #202D3E; font-weight: 800}
 /* 검색 */
 .main .search-contain{padding : 0 0 50px 0}
 .eye-img{height: 44px; width: auto}
@@ -95,7 +96,7 @@ a:hover {text-decoration: none;}
 footer{
   text-align: center; 
   padding: 20px 0 0 0; 
-  background-color: #F6F9FC
+  background-color: #F6F9FC;
 }
 
 address{
@@ -103,19 +104,30 @@ address{
 }
 
 /* sub */
-.sub h1{font-size: 30px; color: #313A5A; font-weight: 800;  text-align: center; position: relative; top:5px;}
-.sub h1 a{color: #313A5A; }
-.sub header{background-color:#fff; padding: 30px 0 30px 0; border-bottom: 1px solid #dbdbdb;}
+.sub h1{font-size: 34px; color: #202D3E; font-weight: 800;  text-align: center; position: relative; top:3px;}
+.sub h1 a{color: #202D3E; }
+.sub header{background-color:#fff; padding: 26px 0 30px 0; border-bottom: 1px solid #dbdbdb;}
 .sub {background-color:#F6F9FC}
+.result-list {
+    padding: 30px 0;
+}
 .result-list dl{
     background-color: #fff;
     padding:30px;
-    margin:30px auto;
+    margin:0;
+    border: 1px solid #dbdbdb;
     border-radius: 2px;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+    border-top: none;
+    /* box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
     transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+    */
     position: relative;
 }
+
+.result-list dl:first-child{
+    border-top: 1px solid #dbdbdb;
+}
+
 .result-list dt a{
   font-size: 18px;
   font-weight: 400;
