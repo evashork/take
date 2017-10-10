@@ -7,6 +7,8 @@
 * [DuckDuckGo](https://duckduckgo.com/) - 당신을 추적하지 않는 검색엔진
 * [SearchLock](https://www.searchlock.com/) 
 * [take](https://www.pinterest.co.kr/evashork/take/)
+* [Redesigning Laravel.io – Refactoring UI – Medium](https://medium.com/refactoring-ui/redesigning-laravel-io-c47ac495dff0)
+* [Rottefella - Introducing Workout Apparel](https://klaer.rottefella.no/) - 
 
 
 ## ICON
