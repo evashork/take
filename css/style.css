@@ -4,7 +4,7 @@ a:hover {text-decoration: none;}
 /* 로고 */
 .main header{padding : 80px 0 0 0; text-align: center}
 .main header img{width: 180px; height: auto}
-.main h1{font-size: 48px; color: #202D3E; font-weight: 800}
+.main h1{font-size: 44px; color: #202D3E; font-weight: 800}
 /* 검색 */
 .main .search-contain{padding : 0 0 50px 0}
 .eye-img{height: 44px; width: auto}
@@ -106,7 +106,7 @@ address{
 /* sub */
 .sub h1{font-size: 34px; color: #202D3E; font-weight: 800;  text-align: center; position: relative; top:3px;}
 .sub h1 a{color: #202D3E; }
-.sub header{background-color:#fff; padding: 26px 0 30px 0; border-bottom: 1px solid #dbdbdb;}
+.sub header{background-color:#fff; padding: 30px 0 30px 0; border-bottom: 1px solid #dbdbdb;}
 .sub {background-color:#F6F9FC}
 .result-list {
     padding: 30px 0;
