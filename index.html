@@ -15,10 +15,6 @@
   <body class="main">
     <header class="container">
       <h1 >TAKE<span>XXX</span></h1>
-      <!-- 로고 -->
-      <!--
-      <h1><span class="one">T</span><span class="two">A</span><span class="three">K</span><span class="four">E</span></h1>
-       -->
     </header>
     <main>
       <!-- 검색영역 -->
@@ -29,7 +25,7 @@
               <label for="search-bar" class="sr-only">search</label>
               <!-- 검색 창 -->
               <input type="text" class="dropdown-toggle" name="search-bar" data-toggle="dropdown" id="search-bar" autocomplete="off">
-              <!-- 검색 추천 -->
+              <!-- 검색 추천 팝업 -->
               <div class="dropdown-menu" aria-labelledby="search-bar">
                 <a class="dropdown-item" href="#">Action</a>
                 <a class="dropdown-item" href="#">Another action</a>
@@ -38,52 +34,32 @@
               <!-- 검색 버튼 -->
               <button type="button" class="search-btn">검색</button>
             </div>
-            
           </form>
         </div>
       </div>
 
       <!-- 추천검색어 -->
       <div class="container list-contain">
+          <!-- 추천검색어 class 네임에 따라 아이콘이 변경됨 movie,music,image,tv --> 
           <a href="sub.html" class="list-btn music">시차-우원재</a>
           <a href="#" class="list-btn movie">American Made</a>
           <a href="#" class="list-btn image">baby Shot</a>
           <a href="#" class="list-btn tv">이름없는 여자</a>
-         
           <a href="#" class="list-btn music">가을아침-IU</a>
-          
-          <a href="#" class="list-btn image">battle ground</a>
-          
+          <a href="#" class="list-btn image">battle ground</a>         
           <a href="#" class="list-btn tv">Discord</a>
           <a href="#" class="list-btn image">Monster calls</a>
           <a href="#" class="list-btn music">DNA-방탄소년단</a>
           <a href="#" class="list-btn movie">Game of Thrones</a>
-          <a href="#" class="list-btn tv">youtube</a>
-
-          
+          <a href="#" class="list-btn tv">youtube</a>       
           <a href="#" class="list-btn image">Over Watch</a>
           <a href="#" class="list-btn movie">베이비 드라이버</a>
           <a href="#" class="list-btn music">좋니-윤종신</a>
           <a href="#" class="list-btn image">Monster</a>
-
           <a href="#" class="list-btn movie">Game of Thrones</a>
           <a href="#" class="list-btn image">facebook</a>
           <a href="#" class="list-btn tv">놀러와 친구들</a>
-          
       </div>
-
-      <!--
-      <div class="container list-contain">
-          <a href="#" class="badge badge-primary">Baby Driver</a>
-          <a href="#" class="badge badge-secondary">American Made</a>
-          <a href="#" class="badge badge-success">Hitmans Bodyguard</a>
-          <a href="#" class="badge badge-danger">Monster calls</a>
-          <a href="#" class="badge badge-warning">Walking Dead</a>
-          <a href="#" class="badge badge-info">Game of Thrones</a>
-          <a href="#" class="badge badge-light">battle ground</a>
-          <a href="#" class="badge badge-dark">Discord</a>
-      </div>
-      -->
     </main>
     <footer class="fixed-bottom">
       <address>© TAKE XXX</address>
@@ -95,11 +71,5 @@
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-     <script>
-      $(function () {
-        $('.tlt').textillate();
-        //$('.dropdown-toggle').dropdown();
-      })
-    </script>
   </body>
 </html>
